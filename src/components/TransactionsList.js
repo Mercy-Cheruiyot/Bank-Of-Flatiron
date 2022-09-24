@@ -1,7 +1,20 @@
 import React from "react";
 import Transaction from "./Transaction";
 
-function TransactionsList() {
+function TransactionsList({transactions,search}) {
+const filteredData = transactions.filter(transaction=>{return gittransaction.description.includes(search)});
+  console.log(transactions)
+  const components = filteredData.map((transaction) => {return <Transaction 
+    key={transaction.id}
+    date={transaction.date}
+    name={transaction.name}
+    description={transaction.description}
+    category={transaction.category}
+    amount={transaction.amount}
+    transaction={transaction}
+    />
+  });
+
   return (
     <table className="ui celled striped padded table">
       <tbody>
@@ -19,7 +32,7 @@ function TransactionsList() {
             <h3 className="ui center aligned header">Amount</h3>
           </th>
         </tr>
-        {/* render a list of <Transaction> components here */}
+        {components}
       </tbody>
     </table>
   );
