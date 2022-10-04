@@ -132,6 +132,209 @@
       "category": "",
       "amount": null,
       "id": 19
+    },
+    {
+      "date": "2022-10-04",
+      "description": "MMF",
+      "category": "Income",
+      "amount": 1000,
+      "id": 20
+    },
+    {
+      "date": "2022-10-04",
+      "description": "MMF",
+      "category": "Fashion",
+      "amount": 200,
+      "id": 21
+    },
+    {
+      "date": "2022-10-04",
+      "description": "ddd",
+      "category": "Income",
+      "amount": 0.03,
+      "id": 22
+    },
+    {
+      "date": "2022-10-04",
+      "description": "ddd",
+      "category": "Income",
+      "amount": 0.03,
+      "id": 23
+    },
+    {
+      "date": "2022-10-04",
+      "description": "ddd",
+      "category": "vvvv",
+      "amount": -0.03,
+      "id": 24
+    },
+    {
+      "date": "2022-10-04",
+      "description": "ddd",
+      "category": "vvvv",
+      "amount": 0.02,
+      "id": 25
+    },
+    {
+      "date": "2022-10-04",
+      "description": "ddd",
+      "category": "vvvv",
+      "amount": 0.02,
+      "id": 26
+    },
+    {
+      "date": "2022-10-04",
+      "description": "ddd",
+      "category": "vvvv",
+      "amount": 0.02,
+      "id": 27
+    },
+    {
+      "date": "2022-10-04",
+      "description": "ddd",
+      "category": "vvvv",
+      "amount": 0.03,
+      "id": 28
+    },
+    {
+      "date": "2022-10-04",
+      "description": "ddd",
+      "category": "vvvv",
+      "amount": 0.03,
+      "id": 29
+    },
+    {
+      "date": "2022-10-05",
+      "description": "ddd",
+      "category": "vvvv",
+      "amount": 0.02,
+      "id": 30
+    },
+    {
+      "date": "2022-10-05",
+      "description": "ddd",
+      "category": "vvvv",
+      "amount": 0.02,
+      "id": 31
+    },
+    {
+      "date": "2022-10-05",
+      "description": "ddd",
+      "category": "vvvv",
+      "amount": 0.02,
+      "id": 32
+    },
+    {
+      "date": "2022-10-04",
+      "description": "ddd",
+      "category": "vvvv",
+      "amount": 0.01,
+      "id": 33
+    },
+    {
+      "date": "2022-10-04",
+      "description": "ddd",
+      "category": "vvvv",
+      "amount": 0.01,
+      "id": 34
+    },
+    {
+      "date": "2022-10-04",
+      "description": "ddd",
+      "category": "vvvv",
+      "amount": 0.01,
+      "id": 35
+    },
+    {
+      "date": "2022-10-04",
+      "description": "ddd",
+      "category": "vvvv",
+      "amount": 0.01,
+      "id": 36
+    },
+    {
+      "date": "2022-10-04",
+      "description": "ddd",
+      "category": "vvvv",
+      "amount": 0.01,
+      "id": 37
+    },
+    {
+      "date": "2022-10-07",
+      "description": "MMF",
+      "category": "Income",
+      "amount": 0.02,
+      "id": 38
+    },
+    {
+      "date": "2022-10-05",
+      "description": "MMF",
+      "category": "Income",
+      "amount": 0.02,
+      "id": 39
+    },
+    {
+      "date": "2022-10-05",
+      "description": "MMF",
+      "category": "Income",
+      "amount": 0.02,
+      "id": 40
+    },
+    {
+      "date": "2022-10-04",
+      "description": "ddd",
+      "category": "vvvv",
+      "amount": 0.01,
+      "id": 41
+    },
+    {
+      "date": "2022-10-04",
+      "description": "ddd",
+      "category": "vvvv",
+      "amount": 0.01,
+      "id": 42
+    },
+    {
+      "date": "2022-10-04",
+      "description": "ddd",
+      "category": "vvvv",
+      "amount": 0.01,
+      "id": 43
+    },
+    {
+      "date": "",
+      "description": "",
+      "category": "",
+      "amount": null,
+      "id": 44
+    },
+    {
+      "date": "2022-10-04",
+      "description": "ddd",
+      "category": "vvvv",
+      "amount": 0.01,
+      "id": 45
+    },
+    {
+      "date": "2022-10-05",
+      "description": "ddd",
+      "category": "vvvv",
+      "amount": 0.01,
+      "id": 46
+    },
+    {
+      "date": "2022-10-05",
+      "description": "ddd",
+      "category": "vvvv",
+      "amount": 0.01,
+      "id": 47
+    },
+    {
+      "date": "2022-10-05",
+      "description": "ddd",
+      "category": "vvvv",
+      "amount": 0.01,
+      "id": 48
     }
   ]
 }

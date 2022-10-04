@@ -1,29 +1,29 @@
 import React, { useState } from "react";
 
   
-function AddTransactionForm(onAddTransaction) {
+function AddTransactionForm({onAddTransaction}) {
   const [date,setDate]= useState("")
   const [description,setDescription]= useState("")
   const [category,setCategory]= useState("")
   const [amount,setAmount]= useState("")
  
+  const data ={
+    date:date,
+    description:description,
+    category:category,
+    amount:parseFloat(amount),
+  };
+  
   function handleSubmit(e){
-    e.preventDefault();
+    e.reset.value();
 
-      const data ={
-        date:date,
-        description:description,
-        category:category,
-        amount:parseFloat(amount),
-      };
-      const requestOptions = {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data)
-    };
-    fetch("http://localhost:8001/transactions", requestOptions)
-        .then(res => res.json())
-        .then(newTransaction=> {
+    fetch("http://localhost:8001/transactions", { 
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(data)
+  })
+   .then(res => res.json())
+   .then(newTransaction=> {
           onAddTransaction(newTransaction)} );
       }
 

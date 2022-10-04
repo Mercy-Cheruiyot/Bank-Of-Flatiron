@@ -2,7 +2,14 @@ import React from "react";
 import Transaction from "./Transaction";
 
 function TransactionsList({transactions,search}) {
-const filteredData = transactions.filter(transaction=>{return gittransaction.description.includes(search)});
+const filteredData = transactions
+.filter((transaction)=>
+  {
+    if({search} ==="") {return true;}
+    if( transaction.description.includes(search))
+    {return true;}})
+  
+
   console.log(transactions)
   const components = filteredData.map((transaction) => {return <Transaction 
     key={transaction.id}
